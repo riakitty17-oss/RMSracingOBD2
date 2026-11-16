@@ -1,0 +1,17 @@
+plugins { id 'com.android.application' }
+android {
+    namespace = 'com.rms.obd'
+    compileSdk = 35
+    defaultConfig {
+        applicationId = 'com.rms.obd'
+        minSdk = 29
+        targetSdk = 35
+        versionCode = 1
+        versionName = '1.0'
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+dependencies { implementation 'androidx.core:core:1.15.0' }
